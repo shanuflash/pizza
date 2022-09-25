@@ -1,0 +1,38 @@
+img {
+  filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.33));
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  margin-right: 30px;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+.head-nav a {
+  color: #000;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background: rgb(0, 0, 0);
+}
