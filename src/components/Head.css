@@ -21,14 +21,19 @@ img {
   background-color: whitesmoke;
   border-radius: 15px;
   margin-right: 30px;
+  margin-top: 10px;
   padding: 10px 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
 }
 
 .head-nav a {
   color: #000;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   text-decoration: none;
+}
+
+.head-nav a:hover {
+  color: #ff3c3c;
 }
 
 .divider {
