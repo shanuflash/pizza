@@ -6,9 +6,10 @@
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  padding: 10px;
+  padding: 10px 0px;
   width: 100%;
-  border-radius: 30px 30px 0 0;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px -1px 100px;
 }
 
 .navbar a {
@@ -20,7 +21,7 @@
 }
 
 .navbar a:hover {
-  color: rgb(24, 24, 24);
+  color: #ff3c3c;
 }
 
 .navbar a.active {
