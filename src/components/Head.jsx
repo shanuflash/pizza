@@ -7,6 +7,7 @@ export class Head extends Component {
       <div className="header">
         <div className="logo">
           <img
+            className="pizza-logo"
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}

@@ -1,13 +1,13 @@
-img {
-  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+.pizza-logo {
+  filter: drop-shadow(0px 0px 8px rgba(28, 8, 8, 0.4));
   padding-left: 30px;
   padding-top: 20px;
   height: 70px;
   width: 70px;
 }
 
-img:hover {
-  filter: drop-shadow(0px 0px 10px rgba(255, 0, 0, 1));
+.pizza-logo:hover {
+  filter: drop-shadow(0px 0px 10px #b42323);
 }
 
 .header {
@@ -24,26 +24,25 @@ img:hover {
   gap: 20px;
   align-items: center;
   justify-content: space-evenly;
-  background-color: whitesmoke;
+  background-color: #b42323;
   border-radius: 15px;
   margin-right: 30px;
   margin-top: 10px;
   padding: 10px 15px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+  box-shadow: rgba(28, 8, 8, 0.15) 0px 0px 8px;
 }
 
 .head-nav a {
-  color: #000;
-  /* margin-left: 10px; */
+  color: #ffffff;
   text-decoration: none;
 }
 
 .head-nav a:hover {
-  color: #ff3c3c;
+  color: #1c0808;
 }
 
 .divider {
   width: 1px;
   height: 30px;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }

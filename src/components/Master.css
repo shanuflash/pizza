@@ -1,4 +1,26 @@
-.lorem {
+.big-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* flex: auto; */
+  align-items: center;
+  justify-content: space-between;
+}
+.big-text {
+  font-size: 150px;
+  /* margin: 100px; */
+  color: #1c0808;
   text-align: justify;
-  padding: 20px 50px 100px 50px;
+  padding: 20px 40px;
+  /* padding: 20px 50px 100px 50px; */
+}
+
+.big-img {
+  /* padding-right: 100px; */
+  z-index: -1;
+  scale: 1.5;
+}
+
+::selection {
+  color: #1c0808;
+  background: #b42323;
 }
