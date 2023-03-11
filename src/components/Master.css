@@ -1,23 +1,23 @@
 .big-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* flex: auto; */
+  width: 100vw;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .big-text {
-  font-size: 150px;
-  /* margin: 100px; */
+  font-size: 9rem;
   color: #1c0808;
   text-align: justify;
   padding: 20px 40px;
-  /* padding: 20px 50px 100px 50px; */
 }
 
 .big-img {
-  /* padding-right: 100px; */
-  z-index: -1;
-  scale: 1.5;
+  position: absolute;
+  width: 50rem;
+  right: 0;
+  bottom: 10rem;
+  z-index: -1;  
+  /* scale: 0.7; */
 }
 
 ::selection {
