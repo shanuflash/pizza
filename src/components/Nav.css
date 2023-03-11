@@ -25,7 +25,7 @@
   color: #1c0808;
 }
 
-.navbar a.active {
+.navbar a:active {
   background-color: #1c0808;
   border-radius: 30px;
   color: whitesmoke;

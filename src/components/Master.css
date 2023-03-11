@@ -1,21 +1,33 @@
+@font-face {
+    font-family: pizzahut;
+    src: url(../assets/pizzahut-font.ttf);
+
+}
 .big-main {
+  height: 50vh;
   width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 .big-text {
-  font-size: 9rem;
+  display: flex;
+  flex-direction: column;
+  font-family: pizzahut;
+  letter-spacing: 0.2rem;
+  width: fit-content;
+  font-size: 5vw;
   color: #1c0808;
-  text-align: justify;
-  padding: 20px 40px;
+  /* text-align: justify; */
+  padding: 2rem 4rem;
 }
 
 .big-img {
   position: absolute;
-  width: 50rem;
+  width: 50vw;
   right: 0;
-  bottom: 10rem;
+  bottom: 20%;
   z-index: -1;  
   /* scale: 0.7; */
 }
@@ -23,4 +35,23 @@
 ::selection {
   color: #1c0808;
   background: #b42323;
+}
+
+.button-container {
+  width: 30%;
+  /* padding-left: 1.5rem; */
+  padding: 0 4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;  
+}
+
+.button {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  background-color: #b42323;
+  width: fit-content;
+  padding: 0.8rem 2rem;
+  border-radius: 1.5rem;
 }
